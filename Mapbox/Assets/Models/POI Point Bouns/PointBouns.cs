@@ -14,6 +14,7 @@ public class PointBouns : MonoBehaviour
         GameManager.Instance.CurrentPlayer.addPoint(bonus);
         Debug.Log(bonus);
         Destroy(gameObject);
+        SceneTransManager.Instance.GoToScene(m_Contents.SCENE_BALLOON, new List<GameObject>());
     }
     void distance()
     {

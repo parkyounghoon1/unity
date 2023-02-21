@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BallController
+    - Balloon
     - GameManager
     - Mapbox.Examples.CameraBillboard
     - Mapbox.Examples.DragableDirectionWaypoint
@@ -32,11 +33,14 @@ ScriptsOnlyBuild:
     - Mapbox.Unity.MeshGeneration.Modifiers.ReplaceFeatureCollectionModifier
     - Mapbox.Unity.Utilities.DebugTools.SceneData
     - Mapbox.Unity.Utilities.DebugTools.ScenesList
+    - Mapbox.Unity.Utilities.Runnable
     - Mission
     - Player
     - PointBouns
     - SceneTransManager
     - ScriptablePalette
+    - Shoot
+    - SpawnBalloons
     - UI_m
     - c_manager
     - landmarkManager
@@ -51,8 +55,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.XR.ARCore.dll:
-    - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -66,11 +68,14 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.Management.Editor.dll:
-    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    Unity.XR.Management.dll:
-    - UnityEngine.XR.Management.XRGeneralSettings
-    - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -90,6 +95,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Capture.unity:
     - Class: 1
@@ -183,6 +190,87 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/balloon.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11426}
+    - Class: 114
+      Script: {instanceID: 11972}
+    - Class: 114
+      Script: {instanceID: 12068}
+    - Class: 114
+      Script: {instanceID: 12970}
+    - Class: 114
+      Script: {instanceID: 13216}
+    - Class: 114
+      Script: {instanceID: 14600}
+    - Class: 114
+      Script: {instanceID: 15232}
+    - Class: 114
+      Script: {instanceID: 15730}
+    - Class: 114
+      Script: {instanceID: 16006}
+    - Class: 114
+      Script: {instanceID: 16080}
+    - Class: 114
+      Script: {instanceID: 16544}
+    - Class: 114
+      Script: {instanceID: 16882}
+    - Class: 114
+      Script: {instanceID: 17156}
+    - Class: 114
+      Script: {instanceID: 22866}
+    - Class: 114
+      Script: {instanceID: 22868}
+    - Class: 114
+      Script: {instanceID: 22870}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -2214,8 +2302,33 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Mapbox.Unity.MeshGeneration.Modifiers
     className: ModifierStack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Balloon
+  - hash:
+      serializedVersion: 2
+      Hash: 5d0f31f4db9a8aa369d18abad7419354
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shoot
+  - hash:
+      serializedVersion: 2
+      Hash: 4d8f39d9e508cd3f2199a68552161ae7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnBalloons
+  - hash:
+      serializedVersion: 2
+      Hash: 8d8a91705e739c0a1183ae8b10693cb4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadingSceneManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/world.unity
   - Assets/Scenes/Capture.unity
+  - Assets/Scenes/balloon.unity
   playerPath: C:/Users/see48/Desktop/a.apk

@@ -5,8 +5,6 @@ using UnityEngine;
 public static class m_Contents
 {
     public static string SCENE_WORLD = "World"; // 메인화면
-    public static string SCENE_CAPTURE = "Capture"; //미션
-
-    public static string TAG_Monster = "Monster"; //몬스터
-    public static string TAG_Orb = "Orb";
+    public static string SCENE_CAPTURE = "Capture"; //농구 미니게임
+    public static string SCENE_BALLOON = "balloon"; //풍선 미니게임
 }
