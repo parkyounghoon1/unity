@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.Assertions;
 
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : SingletonClass<GameManager>
 {
     [SerializeField] private Player currentPlayer;
-
     public Player CurrentPlayer
     {
         get 
@@ -18,6 +17,10 @@ public class GameManager : Singleton<GameManager>
             }
             return currentPlayer; 
         }
+    }
+    void Start()
+    {
+        Instance.CurrentPlayer.point += 10;
     }
 
 }

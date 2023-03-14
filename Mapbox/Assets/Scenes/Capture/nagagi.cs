@@ -6,7 +6,8 @@ public class nagagi : MonoBehaviour
 {
     public void NagagiBtnClicked()
     {
-        SceneTransManager.Instance.GoToScene(m_Contents.SCENE_WORLD, new List<GameObject>());
+        GameManager.Instance.CurrentPlayer.Point += 10;
+        LoadingSceneController.LoadScene(m_Contents.SCENE_WORLD);
     }
 
 }

@@ -8,7 +8,7 @@ public class BallController : MonoBehaviour
     public float resetTime = 3.0f;
     public Text result;
     public float captureRate = 0.5f;
-    public int goal_point=0;
+
     Rigidbody rb;
     bool isReady = true;
     Vector2 startPos;
@@ -84,8 +84,9 @@ public class BallController : MonoBehaviour
         {
             return;
         }
-        goal_point += 1;
-        result.text = goal_point.ToString();
+
+        result.text = "충돌 감지";
+        Destroy(collision.gameObject);
         gameObject.SetActive(false);
     }
 }

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.UI;
+
 public class UI_m : MonoBehaviour
 {
     [SerializeField] Text pointText;
@@ -18,15 +18,11 @@ public class UI_m : MonoBehaviour
         pointText.text = GameManager.Instance.CurrentPlayer.Point.ToString();
     }
 
-    public void MenuBtnClicked()
+    public void btn_click()
     {
-        toggleMenu();
+        LoadingSceneController.LoadScene(m_Contents.SCENE_CAPTURE);
     }
 
-    public void toggleMenu()
-    {
-        menu.SetActive(!menu.activeSelf);
-    }
     public void exitMenu()
     {
         menu.SetActive(false);

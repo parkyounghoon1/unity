@@ -1,30 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Mission : MonoBehaviour
 {
+    [SerializeField] private Canvas canvas;
+    [SerializeField] private GameObject menu;
+
+    private void Start()
+    {
+        menu.SetActive(false);
+    }
+
     private void OnMouseDown()
     {
-        m_SceneManager[] managers = FindObjectsOfType<m_SceneManager>();
-        foreach(m_SceneManager m_SceneManager in managers)
-        {
-            if(m_SceneManager.gameObject.activeSelf)
-            {
-                m_SceneManager.miniTapped(gameObject);
-            }
-        }
+        menu.SetActive(!menu.activeSelf);
+        //LoadingSceneController.LoadScene(m_Contents.SCENE_CAPTURE);
+        canvas.sortingOrder = 1;
     }
-    //collision일때
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        m_SceneManager[] managers = FindObjectsOfType<m_SceneManager>();
-        foreach (m_SceneManager m_SceneManager in managers)
-        {
-            if (m_SceneManager.gameObject.activeSelf)
-            {
-                m_SceneManager.m_Collision(gameObject, collision);
-            }
-        }
-    }*/
 }
