@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7AE0CB1B-B229-361A-7FE7-49581883A1A4}</ProjectGuid>
+    <ProjectGuid>{7C282DA3-498C-D7B5-75DC-A3502B231FAF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -363,49 +363,49 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Assets/Mapbox SDK/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Assets/Mapbox SDK/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -762,135 +762,135 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Stores">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Analytics.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>C:/Users/see48/Documents/MyUnity/Mapbox test/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>C:/Users/see48/Documents/GitHub/unity/Mapbox/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B73A9C9C-F369-B20B-0E5D-9DDF944BFF67}</Project>
+      <Project>{CA371E29-192F-B032-B8BF-C2DFA3E3F6A5}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
